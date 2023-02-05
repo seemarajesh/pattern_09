@@ -1,0 +1,12 @@
+#include <stdio.h>                                   //12345 2345 345 45 5 
+int main()
+{
+  int ir,ic;
+  for(ir=1;ir<=5;ir++){
+      for(ic=ir;ic<=5;ic++)
+      {
+          printf("%d",ic);
+      }
+      printf("\n");
+  }
+}
